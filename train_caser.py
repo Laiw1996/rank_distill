@@ -305,7 +305,7 @@ if __name__ == '__main__':
 
     # model dependent arguments
     model_parser = argparse.ArgumentParser()
-    model_parser.add_argument('--d', type=int, default=50)
+    model_parser.add_argument('--d', type=int, default=100)
     model_parser.add_argument('--nv', type=int, default=2)
     model_parser.add_argument('--nh', type=int, default=16)
     model_parser.add_argument('--drop', type=float, default=0.5)
